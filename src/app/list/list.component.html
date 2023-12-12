@@ -1,0 +1,9 @@
+<!-- <h2 *ngFor="let list of items">{{ list.test1 }}{{list.test}}</h2> -->
+<button class="btn btn-success add-new">Add new</button>
+<div class="container" *ngFor="let item of items">
+    <p>{{item.content}}</p>
+    <div class="icons">
+        <button class="btn btn-primary ">{{item.edit}}</button>
+        <button class="btn btn-danger">{{item.delete}}</button>
+    </div>
+</div>

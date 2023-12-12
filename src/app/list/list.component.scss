@@ -1,0 +1,9 @@
+// .add-new{
+// }
+.container {
+    @apply flex justify-between items-center p-2 m-5 m-auto;
+}
+
+.icons {
+    @apply flex gap-3;
+}
